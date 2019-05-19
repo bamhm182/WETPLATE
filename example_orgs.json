@@ -1,0 +1,82 @@
+{
+  "orgs": [
+    {
+      "name": "1 US",
+      "mission": "Many more words than are neccessary to state the simple idea that the reason that this organization exists is so that people in the United States, whether nationals or immigrants, have an organization that they can be a part of, take place in, know about, go to, tell people about, or think about while living or not living in the United States of America.",
+      "key_words": "United States",
+      "location": "USA, Earth",
+      "children": [
+        {
+          "name": "38 ST",
+          "mission": "A whole lot of words to explain that the purpose of the 38th state is to ensure global superiority of the United States of America from smack dab in the middle of the country by providing support, sustainment, and Rocky Mountains from within the confines of Colorado state lines.",
+          "key_words": "Colorado, Rocky Mountains",
+          "location": "Colorado, USA",
+          "children": [
+            {
+              "name": "364 CTY",
+              "mission": "To provide holistic support to the 38 ST by providing a single place for state leaders to assemble, congregate, meet, or gather to discuss matters pertaining to Colorado.",
+              "key_words": "Colorado, Leaders",
+              "location": "Colorado, USA",
+              "children": [
+                {
+                  "name": "1 BLK",
+                  "mission": "Something something something dark side",
+                  "key_words": "dark side",
+                  "location": "Colorado, USA"
+                },
+                {
+                  "name": "42 BLK",
+                  "mission": "Something something something light side",
+                  "key_words": "light side",
+                  "location": "Colorado, USA"
+                },
+                {
+                  "name": "10 BLK",
+                  "mission": "Something something something bacon",
+                  "key_words": "Bacon",
+                  "location": "Colorado, USA"
+                }
+              ]
+            },
+            {
+              "name": "518 CTY",
+              "mission": "To provide support to the herbacultural needs of Colorado, as well as to provide necessary support for strategic military facilities such as North American Aerospace Defense Command (NORAD).",
+              "key_words": "Colorado, Herbacultural, NORAD",
+              "location": "Colorado, USA",
+              "children": [
+                {
+                  "name": "472 BLK",
+                  "mission": "Colorado Springs, needed a block... Here we are!",
+                  "key_words": "Colorado Springs",
+                  "location": "Colorado, USA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "28 ST",
+          "mission": "Assure the security of the United States with large, superfluous, or immense belt buckles, rodeos, and guns under the direction of the governor and his cabinet.",
+          "key_words": "Belt Buckles, Rodeos, Guns",
+          "location": "Texas, USA",
+          "children": [
+            {
+              "name": "1 CTY",
+              "mission": "Provide a single meeting place for leaders of the largest US state in order to discuss the pressing, important, imperative, or necessary matters assuring that the United States stay the #1 country and Texas stay the largest state in the aforementioned country through any means under the guidance of the President of the United States.",
+              "key_words": "Texas, Leaders",
+              "location": "Texas, USA",
+              "children": [
+                {
+                  "name": "372 BLK",
+                  "mission": "Big Belt Buckles, Bigger Blocks.",
+                  "key_words": "Bigger Blocks",
+                  "location": "Texas, USA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+orgs.json
+*.py[cod]
+*.spec
+build/
+dist/
+**/*/__pycache__/
