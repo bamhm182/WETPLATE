@@ -1,6 +1,10 @@
 # WETPLATE
 
-Wilson's Easy Tool for the Proficient Learning of All These Entities (WETPLATE) is a quick python script I made to help learn Military Wings, Groups, and Squadrons because it turns out that stuff isn't super easy to remember.
+Wilson's Easy Tool for the Proficient Learning of All These Entities (WETPLATE) is a quick python script I made to help
+learn Military Wings, Groups, and Squadrons because it turns out that stuff isn't super easy to remember.
+
+![Main](resources/WETPLATE.png)
+![Popup](resources/org_popup.png)
 
 # Usage
 
@@ -9,11 +13,12 @@ I didn't want to include any actual information because even though all the info
 on the internet, it still feels a little sensitive.
 
 1) Copy example_orgs.json to orgs.json and add your entities.
-2) Run gui.py after orgs.json is in the same folder. (Alternatively, I compiled a WETPLATE.exe
-on the releases page. You can run that without Python.)
+2) Run gui.py (or WETPLATE.exe*) after orgs.json is put in the same folder.
 
 If you don't have an orgs.json file, it will automatically use example_orgs.json, so you can test it before putting
 all your entities into a json.
+
+*WETPLATE.exe is a compiled version that doesn't need Python on your local system.
 
 # Entities
 
@@ -57,8 +62,8 @@ They are written in the json as follows:
 ```
 
 # Resizing
-In theory, you could put as many entities and children as you need to, but it might look bad. It is programmed to
-automatically space them based on the number of entities, but it might start to look pretty bad if you have a ton.
+In theory, you could add as many entities and children as you need to, but it might not format properly if you have a
+ton. I wrote this for about 4 layers deep and 7 wide.
 
 If you need more entities than the default resolution allows for, you can change it by editing gui.py and changing the
 geometry from "1000x520" and the default width for draw_org() from 1000 to whatever you need.
