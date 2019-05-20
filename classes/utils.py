@@ -41,7 +41,7 @@ def wipe_values(curr):
     return Org(oid=oid, children=children)
 
 
-def get_values(curr, value):
+def get_values(curr, value, recurse=True):
     ret = []
     if value == 'name':
         ret.append(curr.name)
@@ -54,9 +54,20 @@ def get_values(curr, value):
     elif value == 'location':
         ret.append(curr.location)
 
-    if curr.children:
-        for child in curr.children:
-            ret.extend(get_values(child, value))
+    if recurse:
+        if curr.children:
+            for child in curr.children:
+                ret.extend(get_values(child, value))
     ret = list(set(ret))
     ret.sort()
-    return ret
+    return ret if recurse else ret[0]
+
+
+def get_org(orgs, oid):
+    desired = None
+    if orgs.oid == oid:
+        desired = orgs
+    if orgs.children and not desired:
+        for child in orgs.children:
+            get_org(child, oid)
+    return desired

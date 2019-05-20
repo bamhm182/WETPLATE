@@ -31,8 +31,6 @@ class Window(Frame):
 
         x = start_x + position - 30
         y = 10 + (row * row_dist)
-        if curr.name.endswith("CW"):
-            print(f"{curr.name} ({x}, {y}) (width:{width}) (start_x:{start_x}) (position:{position})")
         button_text = StringVar()
         button_text.set(curr.name)
         button = Button(self, textvariable=button_text, height=30, width=60, image=self.pixel, compound="c")

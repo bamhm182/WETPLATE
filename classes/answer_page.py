@@ -1,5 +1,6 @@
 from tkinter import *
 import random
+import classes.utils as utils
 
 
 class AnswerPage:
@@ -9,13 +10,14 @@ class AnswerPage:
         self.answers = answers
         self.popup = Tk()
         self.popup.title("Organization")
-        self.popup.geometry("300x300")
+        self.popup.minsize(500, 500)
+        self.popup.maxsize(1000, 500)
 
         name_label = Label(self.popup, text="Org Name")
         name_label.pack()
 
         name = StringVar(self.popup)
-        name.set("")
+        name.set(utils.get_values(utils.get_org(answers, oid), 'name', False))
         name_drop = OptionMenu(self.popup, name, *self.get_choices('name'))
         name_drop.pack()
 
@@ -23,7 +25,7 @@ class AnswerPage:
         mission_label.pack()
 
         mission = StringVar(self.popup)
-        mission.set("")
+        mission.set(utils.get_values(utils.get_org(answers, oid), 'mission', False))
         mission_drop = OptionMenu(self.popup, mission, *self.get_choices('mission'))
         mission_drop.pack()
 
@@ -31,7 +33,7 @@ class AnswerPage:
         key_words_label.pack()
 
         key_words = StringVar(self.popup)
-        key_words.set("")
+        key_words.set(utils.get_values(utils.get_org(answers, oid), 'key_words', False))
         key_words_drop = OptionMenu(self.popup, key_words, *self.get_choices('key_words'))
         key_words_drop.pack()
 
@@ -39,7 +41,7 @@ class AnswerPage:
         location_label.pack()
 
         location = StringVar(self.popup)
-        location.set("")
+        location.set(utils.get_values(utils.get_org(answers, oid), 'location', False))
         location_drop = OptionMenu(self.popup, location, *self.get_choices('location'))
         location_drop.pack()
 
