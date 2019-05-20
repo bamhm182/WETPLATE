@@ -3,8 +3,8 @@
 Wilson's Easy Tool for the Proficient Learning of All These Entities (WETPLATE) is a quick python script I made to help
 learn Military Wings, Groups, and Squadrons because it turns out that stuff isn't super easy to remember.
 
-![Main](resources/WETPLATE.png)
-![Popup](resources/org_popup.png)
+![Main](resources/WETPLATE.jpg)
+![Popup](resources/org_popup.jpg)
 
 # Usage
 
