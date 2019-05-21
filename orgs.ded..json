@@ -1,0 +1,264 @@
+{
+  "orgs": [
+    {
+      "name": "624 OC",
+      "mission": "Receives orders and tasks from U.S. Cyber Command and tasks 24th AF subordinate units to perform a wide range of cyber missions in support of Air Force and Joint Force Commanders. Operates the C3MS weapon system.",
+      "key_words": "C3MS, Tasks from U.S. Cyber Command",
+      "location": "Joint Base San Antonio-Lackland, Texas",
+      "children": [
+        {
+          "name": "688 CW",
+          "mission": "Premier cyberspace wing dedicated to delivering innovative, game-changing and integrated cyberspace, Information Operations, engineering and infrastructure capabilities to assure National, Joint and Air Force success.",
+          "key_words": "Innovative, Game Changing, Capabilities",
+          "location": "Joint Base San Antonio-Lackland, Texas",
+          "children": [
+            {
+              "name": "26 COG",
+              "mission": "Present combat mission ready cyberspace operators to operate, maintain, and defend the Air Force's cyberspace domain. One of two 688 CW groups with CWOs.",
+              "key_words": "688 CW/CWOs, combat mission ready",
+              "location": "Joint Base San Antonio-Lackland, Texas",
+              "children": [
+                {
+                  "name": "26 NOS",
+                  "mission": "Provide premier mission assurance for Air Force core missions through persistent DCO and DODIN operations via the employment of the AFINC cyberspace weapon system and the JRSS.",
+                  "key_words": "AFINC weapon system, JRSS",
+                  "location": "Maxwell AFB, Alabama"
+                },
+                {
+                  "name": "33 NWS",
+                  "mission": "Provide effects for the Air Force, in, through, and from cyberspace, by employing synchronized cyberspace defense operations to detect, respond to, and prevent cyberspace intrusions. Uses the ACD weapon system.",
+                  "key_words": "ACD weapon system",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "68 NWS",
+                  "mission": "Employ mission-ready intelligence professionals who use the CDA weapon system to execute DCO to provide data loss vulnerability assessments, force protection analysis, network vulnerability reporting, and information damage assessments for all Air Force operations, missions, and functions across the AFIN.",
+                  "key_words": "CDA weapon system, data loss vulnerability assessments",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                }
+              ]
+            },
+            {
+              "name": "690 COG",
+              "mission": "Provide integrated network operations for USCYBERCOM, 24 AF-AFCyBER, and 67 CW. Delivers Air Force network operations, network management, information assurance, Enterprise IT services, and Enterprise Service Desk support. One of two 688 CW groups with CWOs.",
+              "key_words": "688 CW/CWOs, USCYBERCOM",
+              "location": "Joint Base San Antonio-Lackland, Texas",
+              "children": [
+                {
+                  "name": "690 ISS",
+                  "mission": "Provide communications support for classified and intelligence networks on Lackland Air Force Base, Port San Antonio, and Medina Annex. Provides network core services, information assurance, Help Desk, and classified IT requirements management.",
+                  "key_words": "Medina Annex, Help Desk",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "690 NSS",
+                  "mission": "Provide tactical control of units conducting AFCYBER operations to ensure mission assurance for the full spectrum Air Force mission and the development of Airmen as cyberspace operators. Home to the AMAC, which supports the CSCS weapon system.",
+                  "key_words": "Home to the AMAC, CSCS weapon system, full-spectrum",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "83 NOS",
+                  "mission": "Provide centralized cyberspace defense and mission assurance using the CSCS cyberspace weapon system to perform DCO and DODIN operations across the Air Force enterprise network.",
+                  "key_words": "CSCS weapon system, DCO, DODIN ops",
+                  "location": "Joint Base Langley-Eustis, Virginia"
+                },
+                {
+                  "name": "561 NOS",
+                  "mission": "Provide mission assurance to the warfighter by operating, sustaining, and defending the Air Force enterprise network.",
+                  "key_words": "Air Force enterprise network",
+                  "location": "Peterson Air Force Base, Colorado"
+                },
+                {
+                  "name": "690 COS",
+                  "mission": "Operate, sustain, and defend the AFIN, employing the CSCS cyberspace weapon system to assure global cyberspace supremacy, enforce network standards, and develop Airmen as cyberspace warriors.",
+                  "key_words": "CSCS weapon system, AFIN",
+                  "location": "Joint Base Pearl Harbor-Hickam, Hawaii"
+                },
+                {
+                  "name": "691 COS",
+                  "mission": "Deliver global, integrated cyberspace capabilities and effects by employing the CSCS weapon system to assure global cyberspace supremacy and mission assurance.",
+                  "key_words": "CSCS weapon system, global cyberspace supremacy",
+                  "location": "Ramstein AB, Germany"
+                }
+              ]
+            },
+            {
+              "name": "38 CEIG",
+              "mission": "Plan, engineer, and deliver a survivable and resilient infrastructure to establish the cyberspace domain and enable the Air Force to conduct net-centric offensive and defensive air, space, and cyberspace operations.",
+              "key_words": "net-centric offensive and defensive",
+              "location": "Tinker AFB, Oklahoma",
+              "children": [
+                {
+                  "name": "38 EISS",
+                  "mission": "",
+                  "key_words": "",
+                  "location": ""
+                },
+                {
+                  "name": "38 ES",
+                  "mission": "Plan, engineer, implement, assess and restore Air Force cyber capabilities throughout the cyberspace domain by baselining, planning, designing, establishing, optimizing and/or replacing cyber weapon systems.",
+                  "key_words": "establishes/replaces cyber weapon systems",
+                  "location": "Tinker AFB, Oklahoma"
+                },
+                {
+                  "name": "38 CONS",
+                  "mission": "Provide innovative acquisition solutions which result in full-spectrum support of the global cyberspace domain.",
+                  "key_words": "innovative acquisition solutions",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "38 CYRS",
+                  "mission": "Deliver long-haul communications services and cyber systems management for the Air Force and joint warfighter success",
+                  "key_words": "long-haul communications",
+                  "location": "Scott AFB, Illinois"
+                },
+                {
+                  "name": "85 EIS",
+                  "mission": "Rapidly deploy worldwide to engineer and install world-class capabilities enabling air, space and cyberspace dominance.",
+                  "key_words": "world-class capabilities",
+                  "location": "Keesler AFB, Mississippi"
+                }
+              ]
+            },
+            {
+              "name": "5 CCG",
+              "mission": "",
+              "key_words": "",
+              "location": "Robins AFB, Georgia",
+              "children": [
+                {
+                  "name": "5 CBCSS",
+                  "mission": "",
+                  "key_words": "",
+                  "location": "Robins AFB, Georgia"
+                },
+                {
+                  "name": "51 CBCS",
+                  "mission": "",
+                  "key_words": "",
+                  "location": "Robins AFB, Georgia"
+                },
+                {
+                  "name": "52 CBCS",
+                  "mission": "",
+                  "key_words": "",
+                  "location": "Robins AFB, Georgia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "67 CW",
+          "mission": "Employs cyberspace forces to enable freedom of action to operate, defend, and attack in and through the cyberspace domain. The premier tactical cyberspace warfighting wing.",
+          "key_words": "Premiere Tactical Cyberspace Warfighting Wing",
+          "location": "Joint Base San Antonio-Lackland, Texas",
+          "children": [
+            {
+              "name": "318 COG",
+              "mission": "Drive cyberspace innovation to optimize existing weapon systems and cyberspace capabilities to shape operational employment to CMFs that evolve cyberspace force development to meet current and future force needs.",
+              "key_words": "optimize weapon systems, evolve cyberspace force development",
+              "location": "Joint Base San Antonio-Lackland, Texas",
+              "children": [
+                {
+                  "name": "39 IOS",
+                  "mission": "Provide initial qualification training to Airmen to plan and execute mission requiring cyberspace operations and information operations capabilities.",
+                  "key_words": "Initial Qualifications Training",
+                  "location": "Hurlburt Field, Florida"
+                },
+                {
+                  "name": "346 TS",
+                  "mission": "Conduct independent, credible, and rigorous operational test and evaluations, emissions, security tests, and other specialized tests of cyberspace capabilities and operate Air Force Space Coloradommand's cyberspace test and training range to enhance the military utility of cyberspace.",
+                  "key_words": "Tests and Evaluations",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "90 COS",
+                  "mission": "Expeditiously integrate, innovate, and deploy cyberspace capabilities to achieve priority mission objectives in and through air, space, and cyberspace.",
+                  "key_words": "Cyberspace Capabilities",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                }
+              ]
+            },
+            {
+              "name": "567 COG",
+              "mission": "Plans and executes cyberspace operations to assist a supported commander to fight in and through a contested, friendly cyberspace environment.",
+              "key_words": "Cyberspace Operations, Supported Commander",
+              "location": "Scott AFB, Illinois",
+              "children": [
+                {
+                  "name": "833 COS",
+                  "mission": "Present, plan, and execute cyberspace operations to defend national information networks against cyberspace threats. Defends national cyberspace key terrain",
+                  "key_words": "Cyberspace Key Terrain (C-KT)",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "834 COS",
+                  "mission": "Postured to provide rapid, tailored, defensive mission assurance to USSTRATCOM and USNORTHCOM global operations",
+                  "key_words": "USSTRATCOM, USNORTHCOM",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "835 COS",
+                  "mission": "Protect critical Air Force and DOD infrastructure and mission systems by providing AFCYBER and CCDRs a mobile precision protection capability to identify, pursue, and mitigate cyberspace threats",
+                  "key_words": "identify/mitigate cyberspace threats",
+                  "location": "Scott AFB, Illinois"
+                },
+                {
+                  "name": "836 COS",
+                  "mission": "Present, plan, and execute cyberspace operations to defend national information networks against cyberspace threats. Presents forces to the CNMF, which is responsible for defending national networks against cyberspace threats",
+                  "key_words": "presents forces to CNMF",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "837 COS",
+                  "mission": "Composed of three cyberspace protection teams postured to provide rapid, tailored defensive mission assurance to USTRANSCOM operations.",
+                  "key_words": "three CPTs",
+                  "location": "Scott AFB, Illinois"
+                },
+                {
+                  "name": "92 COS",
+                  "mission": "To assure Air Force and Department of Defense missions through the employment of CPTs, CVAs, and CSAs. The only Air Force unit conducting CVAs.",
+                  "key_words": "Vulnerability Assessments",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                }
+              ]
+            },
+            {
+              "name": "67 COG",
+              "mission": "Provide Forces to conduct effective Air Force network attack, network support, and communications security of Air Force units. Focused on the priorities of the Air Force Network Operations commander, CDRUSSTRATCOM, and supported unified CCDRs. The offensive arm of the Air Force.",
+              "key_words": "attack, offensive arm",
+              "location": "Joint Base San Antonio-Lackland, Texas",
+              "children": [
+                {
+                  "name": "91 COS",
+                  "mission": "Execute offensive cyberspace operations, as tasked by USCYBERCOM, in support of worldwide CCDR objectives. Conducts telephone and information systems cyberspace operations.",
+                  "key_words": "tasked by USCYBERCOM, telephone",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "315 COS",
+                  "mission": "Execute cyberspace attack and C-ISR to provide global strike, intelligence, surveillance, and reconnaissance. Develops, integrates, and employs cyber-minded Airmen and capabilities in support of joint force commanders and national requirements.",
+                  "key_words": "execute attacks, C-ISR, global strike",
+                  "location": "Fort Meade, Maryland"
+                },
+                {
+                  "name": "390 COS",
+                  "mission": "Conduct operations that manipulate the cyberspace domain to enable CCDRs the ability to perform Global Strike and C-ISR",
+                  "key_words": "enable CCDRs, C-ISR, global strike",
+                  "location": "Joint Base San Antonio-Lackland, Texas"
+                },
+                {
+                  "name": "352 COS",
+                  "mission": "Provide world-class offensive cyberspace operations Airmen to USCYBERCOM in support of United States Indo-Pacific Command and National Priorities",
+                  "key_words": "world-class offensive, Indo-Pacific",
+                  "location": "Joint Base Pearl Harbor-Hickam, Hawaii"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
