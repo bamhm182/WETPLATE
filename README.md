@@ -66,4 +66,4 @@ In theory, you could add as many entities and children as you need to, but it mi
 ton. I wrote this for about 4 layers deep and 7 wide.
 
 If you need more entities than the default resolution allows for, you can change it by editing gui.py and changing the
-geometry from "1000x520" and the default width for draw_org() from 1000 to whatever you need.
+self.window_width from 1000 and the self.window_height from 520.
