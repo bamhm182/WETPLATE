@@ -11,7 +11,7 @@ class AnswerPage:
         self.popup = Tk()
         self.popup.title("Organization")
         self.popup.minsize(500, 500)
-        self.popup.maxsize(1000, 500)
+        self.popup.maxsize(500, 500)
 
         name_label = Label(self.popup, text="Org Name")
         name_label.pack()
@@ -19,14 +19,23 @@ class AnswerPage:
         name = StringVar(self.popup)
         name.set(utils.get_values(utils.get_org(answers, oid), 'name', False))
         name_drop = OptionMenu(self.popup, name, *self.get_choices('name'))
+        name_drop.config(width=50, anchor="w")
         name_drop.pack()
 
         mission_label = Label(self.popup, text="Mission")
         mission_label.pack()
 
+        curr_misson = utils.get_values(utils.get_org(answers, oid), 'mission', False)
+        mission_written_text = StringVar(self.popup, value=curr_misson)
+        mission_written_label = Label(self.popup, textvariable=mission_written_text, wraplength=400,
+                                      justify="center")
+        mission_written_label.pack()
+
         mission = StringVar(self.popup)
-        mission.set(utils.get_values(utils.get_org(answers, oid), 'mission', False))
-        mission_drop = OptionMenu(self.popup, mission, *self.get_choices('mission'))
+        mission.set(curr_misson)
+        mission_drop = OptionMenu(self.popup, mission, *self.get_choices('mission'),
+                                  command=lambda event: self.mission_changed(mission_written_text, mission))
+        mission_drop.config(width=50, anchor="w")
         mission_drop.pack()
 
         key_words_label = Label(self.popup, text="Key Words")
@@ -35,6 +44,7 @@ class AnswerPage:
         key_words = StringVar(self.popup)
         key_words.set(utils.get_values(utils.get_org(answers, oid), 'key_words', False))
         key_words_drop = OptionMenu(self.popup, key_words, *self.get_choices('key_words'))
+        key_words_drop.config(width=50, anchor="w")
         key_words_drop.pack()
 
         location_label = Label(self.popup, text="Location")
@@ -43,6 +53,7 @@ class AnswerPage:
         location = StringVar(self.popup)
         location.set(utils.get_values(utils.get_org(answers, oid), 'location', False))
         location_drop = OptionMenu(self.popup, location, *self.get_choices('location'))
+        location_drop.config(width=50, anchor="w")
         location_drop.pack()
 
         answer_check = StringVar(self.popup)
@@ -57,6 +68,9 @@ class AnswerPage:
         check = Button(self.popup, text="Check Answers")
         check.configure(command=lambda: self.check_answers(oid, name, mission, key_words, location, answer_check))
         check.pack()
+
+    def mission_changed(self, text, mission):
+        text.set(mission.get())
 
     def update_org(self, parent_text, oid, name, mission, key_words, location, orgs=None):
         if not orgs:
